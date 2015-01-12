@@ -1,0 +1,3 @@
+services:
+    snce_v_card.helper:
+        class: Snce\VCardBundle\Classes\Helpers\VCardHelper

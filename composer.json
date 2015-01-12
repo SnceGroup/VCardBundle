@@ -1,0 +1,25 @@
+{
+    "name": "snce/vcard-bundle",
+    "type": "symfony-bundle",
+    "description": "This Bundle provides a way to generate a basic VCard 3.0 and the corrisponding Symfony response",
+    "keywords": ["symfony", "vcard"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "S'nce Group",
+            "homepage": "http://www.sncegroup.ch/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.0",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3"
+    },
+    "autoload": {
+        "psr-0": {"Snce\\VCardBundle": ""}
+    },
+    "target-dir": "Snce/VCardBundle"
+}
